@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background: url('https://wallpapercave.com/wp/wp1979062.jpg') no-repeat center center/cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0c3d0c;
+}
+
+.container {
+    background: rgba(173, 216, 230, 0.8); /* Pastel blue background */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 700px; /* Wider container */
+    min-height: 500px; /* Taller container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gif {
+    width: 80%; /* Makes the GIF take 80% of the container width */
+    max-width: 300px; /* Sets a max limit */
+    height: auto; /* Keeps the original aspect ratio */
+    margin-top: 15px;
+}
+
+.tenor-gif-embed {
+    max-width: 200px;
+}
+
+@media (max-width: 768px) {
+    .gif {
+        width: 90%; /* Increase size on smaller screens */
+        max-width: 350px;
+    }
+}
+
+h1 {
+    font-family: 'Poppins', cursive;
+    font-size: 28px;
+    color: #362aa1;
+}
+
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.toggle-button, .yes-button, .no-button {
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+    transition: 0.3s;
+}
+
+.toggle-button {
+    background-color: #77dd77;
+    color: white;
+}
+
+.toggle-button:hover {
+    background-color: #4CAF50;
+}
+
+.yes-button {
+    background-color: #ffb6c1;
+    color: white;
+}
+
+.yes-button:hover {
+    background-color: #ff69b4;
+}
+
+.no-button {
+    background-color: #ff6b81;
+    color: white;
+}
+
+.no-button:hover {
+    background-color: #ff1744;
+}
